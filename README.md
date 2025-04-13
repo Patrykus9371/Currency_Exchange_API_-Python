@@ -30,7 +30,7 @@ cd currency-exchange
 pip install requests
 ```
 
-### 🧪 Example Usage
+- ## 🧪 Example Usage
 ```bash
 from dist import Dist
 
@@ -62,7 +62,7 @@ Currency_exchange/
 ├── main.py                # Script for running examples
 └── README.md              # Project documentation
 ```
-### 💡 Supported Currencies
+- ## 💡 Supported Currencies
 
 The app supports all currencies from NBP Table A. Examples:
 
@@ -89,7 +89,7 @@ The app supports all currencies from NBP Table A. Examples:
 - ...and many more
 
 
-### 📘 API Overview
+- ## 📘 API Overview
 
 🔹 NBPApiClient
 Fetches currency exchange rates from the NBP API.
@@ -117,7 +117,7 @@ Supports:
 
 / Division by scalar
 
-### 🧰 Development
+- ## 🧰 Development
 To run the example script:
 
 ```bash
