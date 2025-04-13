@@ -109,13 +109,13 @@ print(a + b)  # Output in EUR
 ```
 Supports:
 
-- + Addition
++ Addition
 
 - - Subtraction
 
-- * Multiplication by scalar
+* Multiplication by scalar
 
-- / Division by scalar
+/ Division by scalar
 
 ### 🧰 Development
 To run the example script:
