@@ -31,37 +31,37 @@ pip install requests
 ```
 
 - ## 🧪 Example Usage
-```bash
-from dist import Dist
-
-a = Dist(100, "EUR")
-b = Dist(200, "PLN")
-c = Dist(50, "USD")
-d = Dist(300, "GBP")
-
-print("EUR + PLN =", a + b)
-print("USD + EUR =", c + a)
-print("PLN - USD =", b - c)
-print("GBP + PLN =", d + b)
-```
-
-#### 💬 Output
-```bash
-EUR + PLN = 143.07 EUR
-USD + EUR = 142.92 USD
-PLN - USD = 35.68 PLN
-GBP + PLN = 360.89 GBP
-```
+        ```bash
+        from dist import Dist
+        
+        a = Dist(100, "EUR")
+        b = Dist(200, "PLN")
+        c = Dist(50, "USD")
+        d = Dist(300, "GBP")
+        
+        print("EUR + PLN =", a + b)
+        print("USD + EUR =", c + a)
+        print("PLN - USD =", b - c)
+        print("GBP + PLN =", d + b)
+        ```
+        
+        #### 💬 Output
+        ```bash
+        EUR + PLN = 143.07 EUR
+        USD + EUR = 142.92 USD
+        PLN - USD = 35.68 PLN
+        GBP + PLN = 360.89 GBP
+        ```
 
 ### 🧪 Example Usage
-```bash
-Currency_exchange/
-├── dist.py                # Dist class - handles currency-aware values and arithmetic
-├── currency_converter.py  # CurrencyConverter - handles conversion between currencies
-├── nbp_api_client.py      # NBPApiClient - fetches currency rates from NBP
-├── main.py                # Script for running examples
-└── README.md              # Project documentation
-```
+    ```bash
+    Currency_exchange/
+    ├── dist.py                # Dist class - handles currency-aware values and arithmetic
+    ├── currency_converter.py  # CurrencyConverter - handles conversion between currencies
+    ├── nbp_api_client.py      # NBPApiClient - fetches currency rates from NBP
+    ├── main.py                # Script for running examples
+    └── README.md              # Project documentation
+    ```
 - ## 💡 Supported Currencies
 
     The app supports all currencies from NBP Table A. Examples:
