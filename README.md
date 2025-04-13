@@ -64,64 +64,64 @@ Currency_exchange/
 ```
 - ## 💡 Supported Currencies
 
-The app supports all currencies from NBP Table A. Examples:
-
-- 🇺🇸 USD – US Dollar
-
-- 🇪🇺 EUR – Euro
-
-- 🇵🇱 PLN – Polish Zloty
-
-- 🇬🇧 GBP – British Pound
-
-- 🇨🇭 CHF – Swiss Franc
-
-- 🇯🇵 JPY – Japanese Yen
-
-- 🇳🇴 NOK – Norwegian Krone
-
-- 🇸🇪 SEK – Swedish Krona
-
-- 🇨🇿 CZK – Czech Koruna
-
-- 🇭🇺 HUF – Hungarian Forint
-
-- ...and many more
+    The app supports all currencies from NBP Table A. Examples:
+    
+    - 🇺🇸 USD – US Dollar
+    
+    - 🇪🇺 EUR – Euro
+    
+    - 🇵🇱 PLN – Polish Zloty
+    
+    - 🇬🇧 GBP – British Pound
+    
+    - 🇨🇭 CHF – Swiss Franc
+    
+    - 🇯🇵 JPY – Japanese Yen
+    
+    - 🇳🇴 NOK – Norwegian Krone
+    
+    - 🇸🇪 SEK – Swedish Krona
+    
+    - 🇨🇿 CZK – Czech Koruna
+    
+    - 🇭🇺 HUF – Hungarian Forint
+    
+    - ...and many more
 
 
 - ## 📘 API Overview
 
-🔹 NBPApiClient
-Fetches currency exchange rates from the NBP API.
-
-```bash
-converter = CurrencyConverter(client)
-amount_in_usd = converter.convert(100, 'PLN', 'USD')
-```
-
-🔹 Dist
-Represents a monetary value in a specific currency with automatic conversion logic.
-
-```bash
-a = Dist(100, 'EUR')
-b = Dist(200, 'PLN')
-print(a + b)  # Output in EUR
-```
-Supports:
-
-+ Addition
-
-- - Subtraction
-
-* Multiplication by scalar
-
-/ Division by scalar
+    🔹 NBPApiClient
+    Fetches currency exchange rates from the NBP API.
+    
+    ```bash
+    converter = CurrencyConverter(client)
+    amount_in_usd = converter.convert(100, 'PLN', 'USD')
+    ```
+    
+    🔹 Dist
+    Represents a monetary value in a specific currency with automatic conversion logic.
+    
+    ```bash
+    a = Dist(100, 'EUR')
+    b = Dist(200, 'PLN')
+    print(a + b)  # Output in EUR
+    ```
+    Supports:
+    
+    + Addition
+    
+    - - Subtraction
+    
+    * Multiplication by scalar
+    
+    / Division by scalar
 
 - ## 🧰 Development
-To run the example script:
-
-```bash
-python main.py
-```
-You can customize main.py to test other combinations or scenarios.
+    To run the example script:
+    
+    ```bash
+    python main.py
+    ```
+    You can customize main.py to test other combinations or scenarios.
 
