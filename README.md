@@ -53,7 +53,7 @@ pip install requests
         GBP + PLN = 360.89 GBP
         ```
 
-### 🧪 Example Usage
+- ## 📁 Project Structure
     ```bash
     Currency_exchange/
     ├── dist.py                # Dist class - handles currency-aware values and arithmetic
