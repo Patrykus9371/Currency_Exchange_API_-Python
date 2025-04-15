@@ -25,8 +25,8 @@ A simple and extendable Python project for **automatic currency conversion** and
 ### 📥 Installation
 
 ```bash
-git clone https://github.com/yourusername/currency-exchange.git
-cd currency-exchange
+git clone https://github.com//Patrykus9371/Currency_Exchange_API_-Python.git
+cd Currency_Exchange_API_-Python
 pip install requests
 ```
 
