@@ -116,6 +116,23 @@ pip install requests
     - (*) Multiplication by scalar
     
     - (/) Division by scalar
+      
+- ## 🔧 CLI Usage
+   ```bash
+   python main.py "100EUR + 200PLN - 50USD"
+   ```
+   Or run built-in examples:
+   ```bash
+   python main.py --examples
+   ```
+   💬 Output
+  ```bash
+  Wynik: 247.15 EUR
+  ```
+  
+  
+
+   
 
 - ## 🧰 Development
     To run the example script:
