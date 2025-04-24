@@ -13,6 +13,7 @@ A simple and extendable Python project for **automatic currency conversion** and
 - [📁 Project Structure](#-project-structure)
 - [💡 Supported Currencies](#-supported-currencies)
 - [📘 API Overview](#-api-overview)
+- [🔧 CLI Usage](#-cli-usage)
 - [🧰 Development](#-development)
 
 - ## 🚀 Getting Started
